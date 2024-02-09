@@ -1,0 +1,53 @@
+/* Navbar Css */
+.nav-link {
+  font-weight: 500 !important;
+}
+
+.nav-link.hover,
+.nav-link.active {
+  color: #6d9d9f !important;
+}
+
+/* Header Css */
+.header {
+  background: #f2f1f2;
+}
+
+#header-action-btn {
+  display: block;
+}
+
+/* Our Work Css */
+.our-work {
+  background-image: url("./images/our-work-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#modal {
+  cursor: pointer;
+}
+
+/* Gallery Css */
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.gallery-item:hover .overlay {
+  display: block;
+}
+
+.gallery-item:hover img {
+  filter: brightness(90%);
+}

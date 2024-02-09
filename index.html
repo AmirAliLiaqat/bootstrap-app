@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Bootstrap Project</title>
+  <!-- custom stylesheet css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- bootstrap 5 css cdn -->
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' crossorigin='anonymous'>
+</head>
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-success border-4 position-static">
+      <div class="container">
+          <a class="navbar-brand text-success fw-bolder" href="index.html">Parantheses</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#our-work">Our Work</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#pricing">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#samples">Samples</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#history">History</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Header Start -->
+  <header class="header py-5">
+    <div class="container text-center">
+      <h1 class="fw-lighter display-4">Bootstrap Responsive website template</h1>
+      <p class="text-muted">This is my created bootstrap responsive website template paragraph.</p>
+      <button type="button" class="btn btn-outline-dark mx-auto mb-5" id="header-action-btn">Action</button>
+
+      <img src="./images/header-img.png" alt="header-img">
+    </div><!-- container -->
+  </header>
+  <!-- Header End -->
+
+  <!-- Main Content Start -->
+  <main>
+    <section id="features">
+      <div class="container">
+        <div class="row my-5 py-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <i class="fa-solid fa-arrow-down-up-lock text-success fa-5x"></i>
+            <h1 class="fw-lighter my-3">Secure Transactions</h1>
+            <p>The website has secure transactions paradigm. The website has secure transactions paradigm. The website has secure transactions paradigm.</p>
+          </div><!-- col-lg-4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <i class="fa-solid fa-truck-plane text-success fa-5x"></i>
+            <h1 class="fw-lighter my-3">Easy & Secure Tickiting</h1>
+            <p>The website has secure transactions paradigm. The website has secure transactions paradigm. The website has secure transactions paradigm.</p>
+          </div><!-- col-lg-4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <i class="fa-solid fa-users-viewfinder text-success fa-5x"></i>
+            <h1 class="fw-lighter my-3">Huge Community</h1>
+            <p>The website has secure transactions paradigm. The website has secure transactions paradigm. The website has secure transactions paradigm.</p>
+          </div><!-- col-lg-4 -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section>
+
+    <section class="our-work" id="our-work">
+      <div class="container text-center py-5">
+        <h1 class="fw-lighter my-3">Our Work</h1>
+        <i class="fa-solid fa-play text-success fa-5x my-3" id="modal" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+        <p>Taste a chunk of our work by pressing the button below.</p>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Learn MERN Stack</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/BsWZHtVFAos?si=Q27Xh1UQ4hbo1I9V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- container -->
+    </section><!-- our-work -->
+
+    <section id="pricing">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center">
+              <img src="./images/card-1.png" class="card-img-top" alt="card-1" height="300px">
+              <div class="card-body mt-5">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div><!-- card -->
+            </div><!-- card-body -->
+          </div><!-- col-lg-4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center">
+              <img src="./images/card-2.png" class="card-img-top" alt="card-2" height="300px">
+              <div class="card-body mt-5">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div><!-- card -->
+            </div><!-- card-body -->
+          </div><!-- col-lg-4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center">
+              <img src="./images/card-3.png" class="card-img-top" alt="card-3" height="300px">
+              <div class="card-body mt-5">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div><!-- card -->
+            </div><!-- card-body -->
+          </div><!-- col-lg-4 -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- pricing -->
+
+    <section id="samples">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div><!-- carousel-indicators -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/carousel-1.jpeg" class="img-fluid d-block w-100" alt="carousel-1" height="600px">
+            </div><!-- carousel-item -->
+            <div class="carousel-item">
+              <img src="./images/carousel-2.jpeg" class="img-fluid d-block w-100" alt="carousel-2" height="600px">
+            </div><!-- carousel-item -->
+          </div><!-- carousel-inner -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div><!-- carousel -->
+      </div><!-- container -->
+    </section><!-- samples -->
+
+    <section id="history">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-center my-auto">
+            <h1 class="fw-lighter display-5">Our History</h1>
+            <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ratione fuga ad, quisquam nam aperiam ex id quia vel sapiente laborum blanditiis deleniti impedit exercitationem alias explicabo nesciunt magnam sit placeat itaque rerum eum. Quaerat ipsa ad odio totam non velit officiis, magni nostrum optio? A atque consectetur deleniti maxime?</p>
+            <button type="button" class="btn btn-outline-dark mx-auto mb-5" id="header-action-btn">Read More</button>
+          </div><!-- col-md-6 -->
+          <div class="col-md-6 col-sm-12 text-center">
+            <img src="./images/history-img.png" class="img-fluid" alt="history-img">
+          </div><!-- col-md-6 -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- history -->
+
+    <section id="gallery">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+    
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+    
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+    
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+        </div><!-- row -->
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+    
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+    
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+    
+          <div class="col-lg-3 col-md-6 col-sm-12 gallery-item position-relative my-2 p-0">
+            <img src="./images/gallery.png" class="img-fluid w-100" alt="gallery">
+            <div class="overlay">
+              <h2 class="fw-bold">Web Design</h2>
+              <p>Bootstrap</p>
+            </div><!-- overlay -->
+          </div><!-- col-lg-3 -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- gallery -->
+  </main>
+  <!-- Main Content End -->
+
+  <!-- Footer Start -->
+  <footer class="bg-success text-white">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <h1 class="fw-lighter display-4">Parantheses</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, asperiores cumque? Odit sunt at beatae dolore. Officiis voluptatum nesciunt exercitationem, esse error sint fugiat iusto voluptate maxime delectus ad perspiciatis quis iste, ea itaque illo ipsum nihil id, magnam expedita soluta? Odio, expedita excepturi cumque laboriosam error repellendus. Ducimus, tenetur sit dolorum dolores aspernatur ipsa doloremque aliquid praesentium quod eius culpa quasi modi accusantium omnis dolorem amet autem qui quaerat harum rem officiis tempore? Corporis debitis ex velit sequi in magni, aut unde dolorum? Iusto eaque sunt facere impedit deserunt provident, asperiores dolorum rerum accusamus odit maxime, consequatur quisquam aut.</p>
+        </div><!-- col-lg-5 -->
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-success rounded-pill">35</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-success rounded-pill">35</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-success rounded-pill">35</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-success rounded-pill">35</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-success rounded-pill">35</span>
+            </li>
+          </ol>
+        </div><!-- col-lg-3 -->
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <form action="" method="post">
+            <div class="form-group mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control">
+              <small>We'll never share your email with anyone else.</small>
+            </div><!-- form-group -->
+            <div class="form-group mb-3">
+              <label for="contact_number" class="form-label">Contact Number</label>
+              <input type="text" name="contact_number" class="form-control">
+            </div><!-- form-group -->
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" value="" id="terms_conditions">
+              <label class="form-check-label" for="terms_conditions">I agree with terms and conditions</label>
+            </div><!-- form-group -->
+
+            <button type="submit" class="btn btn-outline-light mb-5">Request Call Back</button>
+          </form>
+        </div><!-- col-lg-4 -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </footer>
+  <!-- Footer End -->
+
+  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js' integrity='sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js' integrity='sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+' crossorigin='anonymous'></script>
+</body>
+</html>
